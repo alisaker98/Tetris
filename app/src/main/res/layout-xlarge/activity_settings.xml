@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/artboard_1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/opacity_rec"
+        android:contentDescription="@string/greyopacity" />
+
+    <ImageView
+        android:id="@+id/SettingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/settingsword" />
+
+    <ImageView
+        android:id="@+id/Music"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/music"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp" />
+
+    <ImageView
+        android:id="@+id/Sounds"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/sounds"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp" />
+
+    <ImageView
+        android:id="@+id/Vibration"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/vibration"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp" />
+
+
+    <Switch
+        android:id="@+id/MusicSWitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        android:background="#686464"
+        android:thumb="@drawable/ellipse_10"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+    <Switch
+        android:id="@+id/SoundSWitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="20dp"
+        android:background="#686464"
+        android:thumb="@drawable/ellipse_10"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+
+    <Switch
+        android:id="@+id/VibrationSWitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="20dp"
+
+        android:background="@drawable/ellipse_10"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+
+    <ImageButton
+        android:id="@+id/BackArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/left_arrow"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/aboutus"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+
+
+
+</RelativeLayout>

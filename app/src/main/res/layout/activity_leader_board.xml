@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/artboard_1"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/opacity_rec"
+        android:contentDescription="@string/greyopacity" />
+    <ImageView
+        android:id="@+id/LeaderBoardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/leaderboard" />
+    <ImageView
+        android:id="@+id/ScoreUser"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/asset_1" />
+
+    <ImageButton
+        android:id="@+id/BackArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/left_arrow"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:id="@+id/HighestScore"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ScoreUser"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FDFDFD"
+        tools:text="78964345" />
+
+    <TextView
+        android:id="@+id/SecondHighestScore"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/HighestScore"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FDFDFD"
+        tools:text="16345" />
+
+    <TextView
+        android:id="@+id/ThirdHighestScore"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SecondHighestScore"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FDFDFD"
+        tools:text="8945" />
+
+    <TextView
+        android:id="@+id/ForthHighestScore"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ThirdHighestScore"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FDFDFD"
+        tools:text="7345" />
+
+</RelativeLayout>

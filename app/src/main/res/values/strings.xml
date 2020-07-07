@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tetris</string>
+    <string name="greyopacity">greyopacity</string>
+    <string name="newgame">New Game</string>
+    <string name="aboutus">TetrisDevelopes@2020</string>
+    <string name="logo">Tetris Logo</string>
+    <string name="loadgame">Load Game</string>
+    <string name="nickname">nickname</string>
+    <string name="add_your_name_below">add your name below</string>
+</resources>
